@@ -1,0 +1,168 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Lato', sans-serif;
+}
+.banner-container{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 850px;
+     background: rgba(229, 84, 115, 0.10);
+}
+.banner-descriptions{
+    margin-left: 240px;
+}
+.banner-text{
+    margin: 32px 0px;
+    color: #272727;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-title{
+    color: #272727;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.btn{
+    background: #E55473;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 43px;
+    color: white;
+}
+.image{
+    height: fit-content;
+    margin-top: 50px;
+    padding: 43px;
+    
+}
+
+
+/* discount container */
+.discount-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.discount-text {
+    text-align: center;
+}
+.discount-text h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.discount-text p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0px;
+}
+.off{
+    color: #E55473;
+}
+/* instagram Profile */
+.instagram {
+    text-align: center;
+    margin-top: 30px; 
+    color: #272727;
+}
+.instagram h1{
+    font-size: 120px;
+    font-weight: 800;
+}
+.instagram p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.image-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+.image-gallery div img{
+    margin-left: 24px;
+}
+
+
+.subscribe{
+    align-items: center;
+    text-align: center;
+    margin-top: 128px;
+    background-image: url(/flower-shop-assignment-main/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    margin-top: 122px;
+    padding-bottom: 122px;
+    
+}
+.subscribe h1{
+    padding-top: 122px;
+    font-weight: 800;
+    font-size: 40px;
+    
+}
+.subscribe p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+form{
+    margin-top: 48px;
+}
+input{
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+#input{
+    width: 700px;
+    height: 54px;
+    border-radius: 8px;
+    margin-right: 16px;
+    border-radius: 8px;
+    background: #FFF;
+}
+footer{
+    text-align: center;
+    background: #111010;
+    height: 449px;
+    margin-top: 128px;
+}
+footer h1{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 128px;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.90);
+    margin-top: 24px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 34px;
+}
