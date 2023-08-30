@@ -43,10 +43,72 @@
 }
 
 
+
+/* Feature Description*/
+.feature_description{
+    text-align: center;
+    margin-top: 128px;
+}
+.feature_description h1{
+    /* color: #272727; */
+    font-size: 40px;
+    font-weight: 800;
+}
+.feature_description p{
+    margin-top: 24px;
+}
+
+/* Feature boxes contain image */
+
+.feature_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+
+}
+.box{
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    margin-left: 24px; 
+}
+.box p{
+    margin-top: 32px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+
+}
+#box1{
+    background: rgba(167, 33, 98, 0.15);
+}
+#box1 img{
+    padding: 110px 78px 0px 76px;
+}
+
+#box2{
+    background: rgba(5, 151, 160, 0.15);
+}
+#box2 img{
+    padding: 117px 47px 51px 47px;
+}
+#box3{
+    background: rgba(71, 125, 17, 0.15);
+}
+#box3 img{
+    padding: 67px 75px 0px;
+}
+
+
+
+
 /* discount container */
 .discount-container{
     display: flex;
     justify-content: space-around;
+    margin-top: 195px;
     align-items: center;
     height: 620px;
     border-radius: 8px;
@@ -57,11 +119,8 @@
 }
 .discount-text h1{
     color: #272727;
-    font-family: Lato;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 .discount-text p{
     color: rgba(39, 39, 39, 0.60);
@@ -73,14 +132,17 @@
 .off{
     color: #E55473;
 }
+
+
 /* instagram Profile */
+
 .instagram {
     text-align: center;
-    margin-top: 30px; 
+    margin-top: 128px; 
     color: #272727;
 }
 .instagram h1{
-    font-size: 120px;
+    font-size: 60px;
     font-weight: 800;
 }
 .instagram p{
@@ -140,6 +202,33 @@ input{
     border-radius: 8px;
     background: #FFF;
 }
+
+
+/* extra Blog post */
+
+.article-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 128px;
+    padding:0px 100px;
+}
+
+.left-blog h1{
+    color: #000000;
+    font-size: 48px;
+    font-weight: bold;
+}
+.left-blog div p{
+    padding: 24px;
+    font-size: 30px;
+}
+.blog-img img{
+    margin-left: 30px;
+}
+
+
+/* Footer section css */
 footer{
     text-align: center;
     background: #111010;
